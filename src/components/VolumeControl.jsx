@@ -53,25 +53,4 @@ const VolumeControl = ({ volume, setVolume }) => {
   );
 };
 
-export default VolumeControl;sMuted);
-  };
-
-  const handleVolumeChange = (e) => {
-    // Implementasi logika untuk mengubah volume
-    // Ini bisa dikembangkan lebih lanjut dengan slider yang interaktif
-    console.log('Volume changed');
-  };
-
-  return (
-    <div className="player-actions">
-      <div className="volume-control" onClick={handleVolumeChange}>
-        <div className="volume-bar" style={{ width: `${isMuted ? 0 : volume}%` }}></div>
-      </div>
-      <button className="control-button" onClick={handleVolumeClick}>
-        {isMuted ? '🔇' : '🔊'}
-      </button>
-    </div>
-  );
-};
-
 export default VolumeControl;
