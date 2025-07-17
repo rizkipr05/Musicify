@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 import MainContent from './components/MainContent';
 import PlayerBar from './components/PlayerBar';
-import PlaylistManager from './components/PlaylistManager';
 import { AudioProvider } from './contexts/AudioContext';
 import { playlistsData } from './data/playlistsData';
 import { tracksData } from './data/tracksData';
